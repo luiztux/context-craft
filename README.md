@@ -48,6 +48,9 @@ git clone https://github.com/seu-usuario/contextcraft.git
 cd contextcraft
 npm install
 npm run dev
+```
+
+---
 
 # 📌 Roadmap (em progresso)
 
@@ -62,8 +65,6 @@ npm run dev
 [ ] Versão multilíngue (PT-BR / EN)
 
 [ ] Compartilhamento via link (URL encodada)
-
-
 
 ---
 
