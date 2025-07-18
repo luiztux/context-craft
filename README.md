@@ -48,3 +48,39 @@ git clone https://github.com/seu-usuario/contextcraft.git
 cd contextcraft
 npm install
 npm run dev
+
+# 📌 Roadmap (em progresso)
+
+[ ] Tree View visual de componentes
+
+[ ] Efeitos de re-renderização em tempo real
+
+[ ] Modo "Debug": logs com sugestões
+
+[ ] Exportar código do sandbox como snippet
+
+[ ] Versão multilíngue (PT-BR / EN)
+
+[ ] Compartilhamento via link (URL encodada)
+
+
+
+---
+
+# 🤝 Contribuição
+
+Pull requests são bem-vindos! Se quiser sugerir novos cenários de erro, refatorações ou melhorias de UI, fique à vontade.
+
+
+---
+
+# 🧠 Licença
+
+MIT — sinta-se livre para usar, remixar e contribuir.
+
+
+---
+
+# 👨‍💻 Autor
+
+Feito com ❤️ por Luiz
