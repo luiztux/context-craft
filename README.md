@@ -61,9 +61,9 @@ npm run dev
 
 # 📌 Roadmap (em progresso)
 
-[ ] Tree View visual de componentes
+[✅] Tree View visual de componentes
 
-[ ] Efeitos de re-renderização em tempo real
+[✅] Efeitos de re-renderização em tempo real
 
 [ ] Modo "Debug": logs com sugestões
 
