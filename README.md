@@ -1,12 +1,19 @@
 # 🧠 ContextCraft – Visualize, entenda e domine o React Context
 
-**ContextCraft** é uma ferramenta interativa e educativa feita com React que te ajuda a **visualizar, testar e entender** a Context API de forma clara e divertida.
+**ContextCraft** é uma ferramenta interativa e educativa que te ajuda a **visualizar, testar e entender** a Context API do React de forma clara e divertida.
 
 Ideal para quem:
 - Está aprendendo React
 - Tem dúvidas sobre como o Context se propaga
 - Já sofreu com erros como "useContext must be inside a Provider"
 - Quer entender **boas práticas e armadilhas comuns** da Context API
+
+---
+
+## Demonstração
+![Visualização da árvore de contexto](docs/arvore_componentes.png)
+
+![Explicação de erros](docs/explicacao_de_erro.png)
 
 ---
 

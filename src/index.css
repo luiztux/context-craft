@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss' important;
+
+@theme {
+    --default-font-family: 'Exo 2', sans-serif;
+}
+
+.re-render-highlight {
+  animation: highlight-fade 0.3s ease-out;
+}
+
+@keyframes highlight-fade {
+  from {
+    background-color: yellow;
+  }
+  to {
+    background-color: transparent;
+  }
+}
