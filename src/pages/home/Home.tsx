@@ -7,6 +7,7 @@ import { loadSlim } from '@tsparticles/slim';
 
 export const Home = () => {
   const [init, setInit] = useState(false);
+
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
@@ -15,36 +16,18 @@ export const Home = () => {
     });
   }, []);
 
-  const particlesLoaded = async (container?: unknown): Promise<void> => {
-    console.log(container);
-  };
+  const particlesLoaded = async () => {};
 
   const options = useMemo(
     () => ({
-      background: {
-        color: {
-          value: 'transparent',
-        },
-      },
+      background: { color: { value: 'transparent' } },
       fpsLimit: 60,
       interactivity: {
-        events: {
-          onHover: {
-            enable: true,
-            mode: 'repulse',
-          },
-        },
-        modes: {
-          repulse: {
-            distance: 100,
-            duration: 0.4,
-          },
-        },
+        events: { onHover: { enable: true, mode: 'repulse' } },
+        modes: { repulse: { distance: 100, duration: 0.4 } },
       },
       particles: {
-        color: {
-          value: '#ffffff',
-        },
+        color: { value: '#ffffff' },
         links: {
           color: '#ffffff',
           distance: 150,
@@ -55,37 +38,22 @@ export const Home = () => {
         move: {
           direction: MoveDirection.none,
           enable: true,
-          outModes: {
-            default: OutMode.bounce,
-          },
+          outModes: { default: OutMode.bounce },
           random: false,
           speed: 2,
           straight: false,
         },
-        number: {
-          density: {
-            enable: true,
-          },
-          value: 80,
-        },
-        opacity: {
-          value: 0.2,
-        },
-        shape: {
-          type: 'circle',
-        },
-        size: {
-          value: { min: 1, max: 5 },
-        },
+        number: { density: { enable: true }, value: 80 },
+        opacity: { value: 0.2 },
+        shape: { type: 'circle' },
+        size: { value: { min: 1, max: 5 } },
       },
       detectRetina: true,
     }),
     []
   );
 
-  if (!init) {
-    return null;
-  }
+  if (!init) return null;
 
   return (
     <div className='relative flex items-center justify-center bg-gradient-to-br from-[#170305] to-[#0B1326] w-screen h-screen p-4 animated-gradient'>
@@ -123,5 +91,3 @@ export const Home = () => {
         </div>
       </div>
     </div>
-  );
-};

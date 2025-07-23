@@ -3,7 +3,7 @@ import { Router } from './routes/Router';
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/context-craft'>
       <Router />
     </BrowserRouter>
   );
