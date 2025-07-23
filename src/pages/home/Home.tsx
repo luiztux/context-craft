@@ -16,6 +16,7 @@ export const Home = () => {
     });
   }, []);
 
+  // Mantém a função para futura customização, sem log
   const particlesLoaded = async () => {};
 
   const options = useMemo(
@@ -91,3 +92,5 @@ export const Home = () => {
         </div>
       </div>
     </div>
+  );
+};
